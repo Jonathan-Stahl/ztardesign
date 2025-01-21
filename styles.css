@@ -641,6 +641,9 @@ footer {
 
 /* For tablets (landscape) */
 @media (max-width: 1024px) {
+  .header {
+    position: block;
+  }
   .bento-box {
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
     grid-template-rows: repeat(5, 1fr); /* 6 rows */
