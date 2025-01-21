@@ -7,6 +7,13 @@ body {
 
 .header {
   position: fixed;
+  font-size: larger;
+
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
 
 a.fill-div {
@@ -642,7 +649,8 @@ footer {
 /* For tablets (landscape) */
 @media (max-width: 1024px) {
   .header {
-    position: block;
+    position: relative;
+    padding-bottom: 1em;
   }
   .bento-box {
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
