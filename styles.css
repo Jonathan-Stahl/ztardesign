@@ -44,6 +44,9 @@ ol {
 }
 
 .round-image {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
   border: 10px sol;
   width: 100%;
   border-radius: 50%;
@@ -270,6 +273,15 @@ ol {
   border-radius: 0;
 }
 
+.homebrewgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.homebrewgrid img {
+ 
+}
 
 
 
@@ -449,7 +461,7 @@ ol {
   }
 
   #box4 p {
-    font-size: 10px;
+    font-size: .85em;
     margin-bottom: 5px;
   }
 
@@ -652,6 +664,15 @@ footer {
     position: relative;
     padding-bottom: 1em;
   }
+  #about-me {
+    margin: 1em;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .round-image {
+    width: 60%;
+  }
+
   
   .bento-box {
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
